@@ -7,6 +7,8 @@ import (
 	"testing"
 )
 
+// 读写锁   和  互斥锁的测试
+
 // 互斥锁测试
 func TestOne(t *testing.T) {
 	a := map[string]int{
